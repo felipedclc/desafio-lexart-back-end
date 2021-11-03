@@ -1,0 +1,7 @@
+apps:
+  - name: felipe-lexart
+    script: ./src/api/server.js
+    exec_mode : 'cluster'
+    instances: 2
+    watch: false
+    max_memory_restart: '200M'
