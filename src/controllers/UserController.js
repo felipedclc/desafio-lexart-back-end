@@ -14,7 +14,7 @@ const findAllResearches = rescue(async (_req, res) => {
   const prods = await UserModel.findAllResearches();
 
   return res.status(200).json(prods);
-}); 
+});
 
 module.exports = {
   createSearchResults,
